@@ -1,0 +1,144 @@
+/*Reset CSS*/
+
+*{
+    text-decoration: none;
+    color: white;
+    font-family:cursive;
+    font-size: medium;
+}
+html{
+    background: url('../image/thème_anaïs_fond.png') no-repeat ;
+    background-size:contain;
+    background-color: #06016b;
+    background-attachment:fixed;
+}
+.accueil{
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+}
+.accueil img{
+    height: 50px;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border-radius: 10px;
+    align-items: center;
+}
+.accueil img:hover{
+    height: 60px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+.accueil:hover{
+    backdrop-filter: blur(20px);
+    background: rgba(255, 217, 0, 0.486);
+    border-radius: 10px;
+}
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    float: right;
+    width: 52%;
+    margin-bottom: 1%;
+    font-size:200%;
+    padding: 10px;
+}
+h1:hover{
+    font-size:220%;
+    font-weight: bold;
+}
+p{
+    color: white;
+}
+.droite{
+    float: right;
+    width: 52%;
+    text-align: left;
+    border: 2px solid gold;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+.bas{
+    float: right;
+    width: 52%;
+    text-align: left;
+    border: 2px solid gold;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+
+.droite:hover{
+    border: 4px solid gold;
+    backdrop-filter: blur(5px);
+    padding: 8px;
+}
+.bas:hover{
+    border: 4px solid gold;
+    backdrop-filter: blur(5px);
+    padding: 8px;
+}
+.un_peu_histoire{
+    float: right;
+    width: 52%;
+    text-align: left;
+    border: 2px solid gold;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+.observer_le_ciel{
+    float: right;
+    width: 52%;
+    text-align: left;
+    border: 2px solid gold;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+
+.observer_le_ciel:hover{
+    border: 4px solid gold;
+    backdrop-filter: blur(5px);
+    padding: 8px;
+}
+
+.un_peu_histoire:hover{
+    border: 4px solid gold;
+    backdrop-filter: blur(5px);
+    padding: 8px;
+
+}
+
+h3{
+    color:lightsalmon;
+    font-size: 110%;
+    text-decoration: none;
+}
+.source{
+    float: right;
+    width: 52%;
+    text-align: left;
+    border: 2px solid gold;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 2%;
+    
+}
+.source:hover{
+    border: 4px solid gold;
+    backdrop-filter: blur(5px);
+    padding: 8px;
+}
+.source a{
+    text-decoration: underline;
+}

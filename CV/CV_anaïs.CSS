@@ -1,0 +1,148 @@
+*{
+    color: white;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+html {
+    background: url('../Image/fond_CV_Anaïs.jpg') no-repeat center center;
+    background-size: cover;
+    
+}
+
+.accueil{
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+}
+.accueil img{
+    height: 50px;
+    width: 50px;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border-radius: 10px;
+    align-items: center;
+}
+.accueil img:hover{
+    height: 60px;
+    width: 60px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+.accueil:hover{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
+h3{
+    color: orange;
+    text-align: left;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    
+}
+a{
+    border-bottom: rgba(255, 207, 205, 0);
+    background-color: rgba(255, 255, 255, 0);
+    padding-bottom: 20px;
+    margin: 20px auto;
+}
+
+
+img {
+    border-radius: 10px;
+}
+p{
+    color: white;
+    background-color:  rgba(28, 95, 122, 0.719);
+   
+}
+div#colonne1 {
+	float: left;
+	width: 33%;
+	margin-right: 10px;
+}
+div#colonne1 img:hover{
+    box-shadow: 0px 0px 10px white;
+}
+div#colonne2 {
+	float: right;
+	width: 300px;
+	margin-left: 10px;
+	border-radius: 10px ;
+}
+div#centre {
+	overflow: hidden;
+    border-radius: 10px;
+}
+div#tout{
+  background-color:  rgba(28, 95, 122, 0.623);
+  border-radius: 20px;
+  backdrop-filter: blur(3px);
+}
+
+/*SECTIONS*/
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    
+    background-color: rgba(255, 255, 255, 0);
+}
+
+section h2{
+    margin: 20px 0;
+    width: 90%;
+    color: orange;
+}
+section > div{
+    width: 90%;
+}
+/*SECTION EXP ET FORMATION*/
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c95{
+    width: 95%;
+    background-color: rgb(255, 187, 0);
+}
+.c75{
+    width: 75%;
+    background-color: rgb(255, 187, 0);
+}
+.c96{
+    width: 95%;
+    background-color: rgb(255, 187, 0);
+}
+.c85{
+    width: 85%;
+    background-color: rgb(255, 187, 0);
+    border-radius: 5px;
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey;
+}

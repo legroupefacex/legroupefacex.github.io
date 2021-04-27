@@ -1,0 +1,440 @@
+*{
+  font-family: cursive;
+  text-decoration: none;
+}
+html{
+  background-image: url(https://picsum.photos/2000/2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.accueil{
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+}
+.accueil img{
+    height: 50px;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border-radius: 10px;
+    align-items: center;
+}
+.accueil img:hover{
+    height: 60px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+.accueil:hover{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    border-radius: 10px;
+}
+
+button{
+  float:center;
+  width: 10%;
+  height: 5%;
+  display: block;
+  text-align: center;
+  border: 3px solid gray ;
+  background-color: gold ;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  align-items: center;
+}
+
+button:hover{
+  float:center;
+  width: 12%;
+  height: 6%;
+  display: block;
+  text-align: center;
+  border: 3px solid gray ;
+  background-color: rgb(136, 255, 0) ;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 44%;
+  margin-right: 44%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+div#a input[type="radio"].demo5 {
+    display: none;
+  }
+div#a  input[type="radio"].demo5 + label#a {
+    position: relative;
+    padding-left: 1.3rem;
+  }
+div#a  input[type="radio"].demo5 + label#a::before,
+  input[type="radio"].demo5 + label#a::after {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 1rem;
+    height: 1rem; 
+    border-radius: 1rem;
+  }
+  div#a input[type="radio"].demo5 + label#a::before {
+    border: 1px solid #00B7E8;
+    background-color: #eee;
+    
+  }
+ div#a input[type="radio"].demo5:checked + label#a::after {
+    background-color: #00B7E8;
+  }
+
+
+
+  div input[type="checkbox"].juste {
+    display: none;
+  }
+  div  input[type="checkbox"].juste + label#juste {
+    position: relative;
+    padding-left: 1.3rem;
+  }
+  div  input[type="checkbox"].juste + label#juste::before,
+  input[type="checkbox"].juste + label#juste::after {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 1rem;
+    height: 1rem; 
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"].juste:checked + label#juste::after {
+    background-color: green;
+  }
+  
+  input[type="checkbox"].juste + label#juste::before {
+    border: 1px solid #00B7E8;
+    background-color: #eee; 
+  }
+
+  div input[type="checkbox"].faux {
+    display: none;
+  }
+  div  input[type="checkbox"].faux + label#faux {
+    position: relative;
+    padding-left: 1.3rem;
+  }
+  div  input[type="checkbox"].faux + label#faux::before,
+  input[type="checkbox"].faux + label#faux::after {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 1rem;
+    height: 1rem; 
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"].faux:checked + label#faux::after {
+    background-color: red;
+  }
+  
+  input[type="checkbox"].faux + label#faux::before {
+    border: 1px solid #00B7E8;
+    background-color: #eee; 
+  }
+  
+
+
+
+
+div#b  input[type="radio"].demo6 {
+    display: none;
+  }
+div#b  input[type="radio"].demo6 + label#b {
+    position: relative;
+    padding-left: 1.3rem;
+  }
+div#b  input[type="radio"].demo6 + label#b::before,
+  input[type="radio"].demo6 + label#b::after {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 1rem;
+    height: 1rem; 
+    border-radius: 1rem;
+  }
+  div#b input[type="radio"].demo6 + label#b::before {
+    border: 1px solid #00B7E8;
+    background-color: #eee;
+    
+  }
+ div#b input[type="radio"].demo6:checked + label#b::after {
+    background-color: #00B7E8;
+  }
+  #domotique{
+    float:left;
+    width: 90%;
+    display: block;
+    text-align: left;
+    border: 6px solid gold;
+    background-color: rgba(245, 245, 245, 0.500);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+
+
+div#c  input[type="radio"].demo7 {
+  display: none;
+}
+div#c  input[type="radio"].demo7 + label#c {
+  position: relative;
+  padding-left: 1.3rem;
+}
+div#c  input[type="radio"].demo7 + label#c::before,
+input[type="radio"].demo7 + label#c::after {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  content:'';
+  width: 1rem;
+  height: 1rem; 
+  border-radius: 1rem;
+}
+div#c input[type="radio"].demo7 + label#c::before {
+  border: 1px solid #00B7E8;
+  background-color: #eee;
+  
+}
+div#c input[type="radio"].demo7:checked + label#c::after {
+  background-color: #00B7E8;
+}
+
+#la-propriété-intellectuelle{
+  float:left;
+  width: 90%;
+  display: block;
+  text-align: left;
+  border: 6px solid gold;
+  background-color: rgba(245, 245, 245, 0.500);
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+
+div#d  input[type="radio"].demo8 {
+  display: none;
+}
+div#d  input[type="radio"].demo8 + label#d {
+  position: relative;
+  padding-left: 1.3rem;
+}
+div#d  input[type="radio"].demo8 + label#d::before,
+input[type="radio"].demo8 + label#d::after {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  content:'';
+  width: 1rem;
+  height: 1rem; 
+  border-radius: 1rem;
+}
+div#d input[type="radio"].demo8 + label#d::before {
+  border: 1px solid #00B7E8;
+  background-color: #eee;
+  
+}
+div#d input[type="radio"].demo8:checked + label#d::after {
+  background-color: #00B7E8;
+}
+
+
+
+div#e  input[type="radio"].demo9 {
+  display: none;
+}
+div#e  input[type="radio"].demo9 + label#e {
+  position: relative;
+  padding-left: 1.3rem;
+}
+div#e  input[type="radio"].demo9 + label#e::before,
+input[type="radio"].demo9 + label#e::after {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  content:'';
+  width: 1rem;
+  height: 1rem; 
+  border-radius: 1rem;
+}
+div#e input[type="radio"].demo9 + label#e::before {
+  border: 1px solid #00B7E8;
+  background-color: #eee;
+  
+}
+div#e input[type="radio"].demo9:checked + label#e::after {
+  background-color: #00B7E8;
+}
+
+
+
+div#f  input[type="radio"].demo10 {
+  display: none;
+}
+div#f  input[type="radio"].demo10 + label#f {
+  position: relative;
+  padding-left: 1.3rem;
+}
+div#f  input[type="radio"].demo10 + label#f::before,
+input[type="radio"].demo10 + label#f::after {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  content:'';
+  width: 1rem;
+  height: 1rem; 
+  border-radius: 1rem;
+}
+div#f input[type="radio"].demo10 + label#f::before {
+  border: 1px solid #00B7E8;
+  background-color: #eee;
+  
+}
+div#f input[type="radio"].demo10:checked + label#f::after {
+  background-color: #00B7E8;
+}
+
+#la-modélisation{
+  float:left;
+  width: 90%;
+  display: block;
+  text-align: left;
+  border: 6px solid gold;
+  background-color: rgba(245, 245, 245, 0.500);
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+
+div#g  input[type="radio"].demo11 {
+  display: none;
+}
+div#g  input[type="radio"].demo11 + label#g {
+  position: relative;
+  padding-left: 1.3rem;
+}
+div#g  input[type="radio"].demo11 + label#g::before,
+input[type="radio"].demo11 + label#g::after {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  content:'';
+  width: 1rem;
+  height: 1rem; 
+  border-radius: 1rem;
+}
+div#g input[type="radio"].demo11 + label#g::before {
+  border: 1px solid #00B7E8;
+  background-color: #eee;
+  
+}
+div#g input[type="radio"].demo11:checked + label#g::after {
+  background-color: #00B7E8;
+}
+
+
+
+#la-programation{
+  float:left;
+  width: 90%;
+  display: block;
+  text-align: left;
+  border: 6px solid gold;
+  background-color: rgba(245, 245, 245, 0.500);
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+
+div#h  input[type="radio"].demo12 {
+  display: none;
+}
+div#h  input[type="radio"].demo12 + label#h {
+  position: relative;
+  padding-left: 1.3rem;
+}
+div#h  input[type="radio"].demo12 + label#h::before,
+input[type="radio"].demo12 + label#h::after {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  content:'';
+  width: 1rem;
+  height: 1rem; 
+  border-radius: 1rem;
+}
+div#h input[type="radio"].demo12 + label#h::before {
+  border: 1px solid #00B7E8;
+  background-color: #eee;
+  
+}
+div#h input[type="radio"].demo12:checked + label#h::after {
+  background-color: #00B7E8;
+}

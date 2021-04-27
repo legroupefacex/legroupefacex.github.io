@@ -38,7 +38,7 @@ html{
     border-radius: 10px;
 }
 h1{
-    color: rgb(255, 0, 0);
+    color: #FCC477 ;
     text-align: center;
     float: right;
     width: 52%;
@@ -119,7 +119,7 @@ p{
 }
 
 h3{
-    color:lightsalmon;
+    color:#FCC477;
     font-size: 110%;
     text-decoration: none;
 }
@@ -156,7 +156,7 @@ h3{
     padding: 8px;
 }
 h2{
-    color:lime;
+    color:#B7E3F5 ;
     text-align: left;
     float: right;
     width: 52%;

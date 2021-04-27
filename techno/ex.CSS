@@ -1,0 +1,12 @@
+*{
+    text-decoration: none;
+    color: aqua;
+    font-family:cursive;
+}
+html{
+    background-color: coral;
+}
+textarea{
+    background-color: goldenrod;
+    resize: none;
+}

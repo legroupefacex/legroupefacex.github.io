@@ -84,9 +84,9 @@ div#centre {
     border-radius: 10px;
 }
 div#tout{
-  background-color:  rgba(28, 95, 122, 0.623);
+  background-color:  rgba(28, 95, 122, 0.452);
   border-radius: 20px;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
 }
 
 /*SECTIONS*/

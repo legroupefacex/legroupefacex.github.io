@@ -164,9 +164,9 @@ div#a  input[type="radio"].demo5 + label#a::before,
     border: 1px solid #00B7E8;
     background-color: #eee; 
   }
-  
 
-div input[type="checkbox"].reponse {
+
+  div input[type="checkbox"].reponse {
     display: none;
   }
   div  input[type="checkbox"].reponse + label.reponse {
@@ -194,9 +194,6 @@ div input[type="checkbox"].reponse {
     border: 1px solid #00B7E8;
     background-color: #eee; 
   }
-
-
-
 
 
 

@@ -4,6 +4,7 @@
     <meta charset="uft-8">
     <link rel="icon" type="image/png" sizes="16x16" href="../Image/logo1.jpg">
     <link rel="stylesheet" href="questionnaire.CSS" type="text/css" >
+    <script defer src="script.js"></script> 
     <title>QCM</title>
 </head>
 <body>
@@ -33,11 +34,11 @@
         <h3>2. 	Cocher les réponses qui appartiennent à la domotique.</h3>
         <div id="b-1">
         <p>  
-            <input type="checkbox" id="2-a" class="faux">	<label class="faux" for="2-a" id="faux">a. Chaise</label> <br>
-            <input type="checkbox" id="2-b" class="juste">	<label class="juste" for="2-b" id="juste">b. Détecteur de fumée</label> <br>
-            <input type="checkbox" id="2-c" class="faux">	<label class="faux" for="2-c" id="faux">c. Parasol</label> <br>
-            <input type="checkbox" id="2-d" class="juste">	<label class="juste" for="2-d" id="juste">d. Digicode</label> <br>
-            <input type="checkbox" id="2-e" class="faux">	<label class="faux" for="2-e" id="faux">e. Voiture</label> <br>
+            <input type="checkbox" id="2-a" class="reponse faux">	<label class="reponse faux" for="2-a" >a. Chaise</label> <br>
+            <input type="checkbox" id="2-b" class="reponse juste">	<label class="reponse juste" for="2-b" >b. Détecteur de fumée</label> <br>
+            <input type="checkbox" id="2-c" class="reponse faux">	<label class="reponse faux" for="2-c" >c. Parasol</label> <br>
+            <input type="checkbox" id="2-d" class="reponse juste">	<label class="reponse juste" for="2-d" >d. Digicode</label> <br>
+            <input type="checkbox" id="2-e" class="reponse faux">	<label class="reponse faux" for="2-e" >e. Voiture</label> <br>
         </p>
       </div>
 
@@ -46,11 +47,11 @@
 
         <h3>3. 	Cocher les objets qui améliorent l’efficacité des tâches ou le confort au quotidien</h3>
         <p>
-          <input type="checkbox" id="3-a" class="faux">	<label for="3-a" id="faux">a. Table</label> <br>
-          <input type="checkbox" id="3-b" class="faux">	<label for="3-b" id="faux">b. Détecteur de fumée</label> <br>
-          <input type="checkbox" id="3-c" class="juste">	<label for="3-c" id="juste">c. Aspirateur</label> <br>
-          <input type="checkbox" id="3-d" class="juste">	<label for="3-d" id="juste">d. Tondeuse automatique</label> <br>
-          <input type="checkbox" id="3-e" class="faux">	<label for="3-e" id="faux">e. Livre</label> <br>
+          <input type="checkbox" id="3-a" class="reponse faux">	<label for="3-a" class="reponse faux">a. Table</label> <br>
+          <input type="checkbox" id="3-b" class="reponse faux">	<label for="3-b" class="reponse faux">b. Détecteur de fumée</label> <br>
+          <input type="checkbox" id="3-c" class="reponse juste">	<label for="3-c" class="reponse juste">c. Aspirateur</label> <br>
+          <input type="checkbox" id="3-d" class="reponse juste">	<label for="3-d" class="reponse juste">d. Tondeuse automatique</label> <br>
+          <input type="checkbox" id="3-e" class="reponse faux">	<label for="3-e" class="reponse faux">e. Livre</label> <br>
         </p>
         <h3>4.	Quels sont les objets domotiques qui améliorent la sécurité ?</h3>
         <p> <input type="checkbox" id="4-a" class="">	<label for="4-a" id="">a. Télévision</label> <br>
@@ -156,6 +157,6 @@
         
     </div>
   </div>
-    <button>Solutions</button>
+    <button id="solutionsBTN">Solutions</button>
 </body>
 </html>

@@ -133,7 +133,7 @@ div#a  input[type="radio"].demo5 + label#a::before,
   
   input[type="checkbox"].juste + label#juste::before {
     border: 1px solid #00B7E8;
-    background-color: #eee; 
+    background-color: lightgreen; 
   }
 
   div input[type="checkbox"].faux {
@@ -165,6 +165,38 @@ div#a  input[type="radio"].demo5 + label#a::before,
     background-color: #eee; 
   }
   
+
+div input[type="checkbox"].reponse {
+    display: none;
+  }
+  div  input[type="checkbox"].reponse + label.reponse {
+    position: relative;
+    padding-left: 1.3rem;
+  }
+  div  input[type="checkbox"].reponse + label.reponse::before,
+  input[type="checkbox"].reponse + label.reponse::after {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 1rem;
+    height: 1rem; 
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"].reponse:checked + labelreponse::after {
+    background-color: #00B7E8;
+  }
+  
+  input[type="checkbox"].reponse + label.reponse::before {
+    border: 1px solid #00B7E8;
+    background-color: #eee; 
+  }
+
+
+
 
 
 
